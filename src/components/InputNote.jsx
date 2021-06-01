@@ -38,7 +38,7 @@ export default function InputNote(props) {
           value={note.title}
         />
         <textarea
-          rows={5}
+          rows={3}
           name="content"
           onChange={handleChange}
           placeholder="Write your note...."
